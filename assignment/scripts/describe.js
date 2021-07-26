@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called name and set it to Dane as a string.
+// If condition is checking if Name equals Mary, which is false
+// so console log won't show 'Hi, Mary!'
+// but console log will show 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We made a variable called secret and another variable called code and assigned it 123 as a number
+// We are using if condition to check if code equals 123, if true then secret variable is assigned the string 'super' and numerical value of code is multiplied by 2
+// if code is greater than 250 then secret is assigned the string 'duper'
+// console log will show 'super'
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Made a variabel isStudent and assigned it true boolean value, 2nd variable age and assigned it numerical value 34 and 3rd variable zip and assigned it 55407
+// 1st if condition is false so console log won't show anything
+// 2nd else if condition is false, so console log won't show anything
+// 3rd else if is true and so console.log will show 'Welcome to Prime!'
+// Since previus else if consition was true else considition will be ignored 
 
 //CODE
 /*
@@ -135,7 +136,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne, colorTwo = 'purple';
 }
 */
 
@@ -147,7 +148,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+// if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,10 +162,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
 */
 
